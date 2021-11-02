@@ -1,5 +1,5 @@
 # Recursive Estimation
-Implementation of an Hybrid Extended Kalman Filter to estimate the states of a boat and implementation of a Particle Filter to localize a robot in a partially known environment.
+Implementation of an Hybrid Extended Kalman Filter to estimate the multiple states of a boat system and implementation of a Particle Filter to localize a robot in a partially known environment.
 
 #
 
@@ -19,7 +19,7 @@ Examples of some of the estimated states during a random generated boat trajecto
 ![EKF_test](https://user-images.githubusercontent.com/79461707/139303647-5f1d54b5-f994-4f92-a5cc-a3290ff10eed.png)
 
 ### Particle Filter
-Design a Particle Filter that tracks the position and orientation of a mobile robot, which is moving in a closed room with a partially known contour; the *x* position of one wall is uncertain. A distance sensor is mounted on the robot, pointing in the same direction as the robot is heading. This sensor measures the distance between the robot and the first opposing wall straight in front of the robot. The robot is controlled with a known input, which prevents the robot from driving into any wall.
+Design a Particle Filter that tracks the position and orientation of a mobile robot, which is moving in a closed room with a partially known contour; the *x* position of one wall is uncertain. A distance sensor is mounted on the robot, pointing in the same direction as the robot is heading. This sensor measures the distance between the robot and the first opposing wall straight in front of the robot. The robot is controlled with a random generated input, but it prevents the robot from driving into any wall.
 
 The objective is to design a PF that estimates the location and heading of the robot, as well as the offset of the left wall from its nominal position.  
   
